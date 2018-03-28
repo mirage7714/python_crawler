@@ -61,7 +61,7 @@ def GetNameAndLink(article):
 	info['link'] = link
 	return info
 
-def GetImgUrl(article, loc):
+def GetImgUrl(article):
 	tels = article.find_all('img',{'alt':'電話號碼'})
 	info = GetNameAndLink(article)
 	if(len(tels) > 0 ) :
