@@ -21,7 +21,7 @@ def GetAgent():
 	with open('useragent_list.txt','r+') as f:
 		agents = f.readlines()
 		for agent in agents:
-			agent_list.append(agent.replace('\n'))
+			agent_list.append(agent.replace('\n',''))
 	index = int(random.random()* len(agent_list))
 	headers = {'User-Agent':agent_list[index]}
 	return headers
