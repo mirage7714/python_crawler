@@ -13,4 +13,5 @@
 
 <h2>下一步呢?</h2>
 <p>每次都把整個看板的文章抓完也不是辦法，因為要花太多的時間了</p>
-<p>改成只抓指定日期的文章就好了</p>
+<p>改成只抓最新的文章就好了</p>
+<li><a href="http://nbviewer.jupyter.org/github/mirage7714/python_crawler/blob/master/ptt/girlsfront/daily_ptt_parser.ipynb">利用列表中的發文的時間，來當作判斷的標準</li>
