@@ -11,4 +11,4 @@
 <img src='./images/postman.png'>  
 
 ### 確定資料可以取得之後就可以開工用requests來爬取資料了  
-<li><a href="./cci_crawler.ipynb">用postman輸出r</a></li>
+<li><a href="./cci_crawler.ipynb">用postman輸出requests的範本之後，小作修改就完成這個需求的80%功能了，剩下20%就是給使用者帶入參數的部分，不過沒接到案子就先不做這部份了</a></li>
